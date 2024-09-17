@@ -36,15 +36,4 @@
   .main {
     overflow: scroll;
   }
-  #table {
-    font-size: 0.9rem;
-    padding: 5px;
-    transform: rotate(90deg);
-    width: 55rem;
-  }
-
-  td,
-  th {
-    padding: 5px;
-  }
 }

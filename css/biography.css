@@ -1,6 +1,6 @@
 .container-bio {
   font-family: Arial, Helvetica, sans-serif;
-  width: 43.75rem;
+  max-width: 43.75rem;
   line-height: 1.8;
   background: linear-gradient(
     145deg,
