@@ -1,0 +1,56 @@
+.container-bio {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 43.75rem;
+  line-height: 1.8;
+  background: linear-gradient(
+    145deg,
+    #fff4e6 25%,
+    #ffe8cc 50%,
+    #ffd8a8 75%,
+    #ffc078 100%
+  );
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 
+Box shadow- Breakdown:
+Why Two Shadows?
+Depth and Realism: By layering two shadows of different intensities and sizes, you create a more natural, realistic shadow effect. Objects in real life often cast multiple layers of shadows, especially when lit from different angles.
+Softness: The use of different blur radii softens the transition from the box to the shadow. This makes the shadow appear as a gentle gradient rather than a harsh line.
+Subtlety: Using low opacity (rgba(0, 0, 0, 0.1) and rgba(0, 0, 0, 0.15)) prevents the shadow from overwhelming the design. It gives a professional look that’s clean and modern without being too prominent.
+When to Use It?
+This type of box shadow is great for cards, modals, buttons, and other UI elements where you want to emphasize depth without making the element feel too heavy.
+It's commonly used in modern, flat design systems to create a minimalist, yet elegant interface.
+*/
+
+.container-bio h1 {
+  color: #375e97;
+  font-size: 2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-bottom: 4px dotted #375e97;
+}
+
+.container-bio p:first-of-type {
+  margin-bottom: 10px;
+}
+
+.container-bio h2 {
+  font-size: 1.5em;
+}
+
+.container-bio .job-title {
+  color: #888;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.container-bio a:link,
+.container-bio a:visited {
+  color: #fb6542;
+}
+
+.container-bio a:hover {
+  text-decoration: none;
+}
