@@ -65,12 +65,13 @@ img {
   font-weight: 600;
   font-size: 1.4rem;
   transition: all 0.3s;
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .nav-link.active {
   background-color: #fff;
-  border-radius: 10px;
-  padding: 5px;
   color: #dc3340;
 }
 
