@@ -1,0 +1,22 @@
+.cool-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 20px;
+  border: 1px solid #730e00;
+  background-color: #fd3a3a;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 0 6px 12px rgba(0, 0, 0, 0.5), 0 3px 6px rgba(0, 0, 0, 0.9);
+  font-size: 2rem;
+  box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.6),
+    inset -5px -5px 10px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+}

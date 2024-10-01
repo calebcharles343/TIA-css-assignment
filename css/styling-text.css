@@ -1,0 +1,253 @@
+/* 
+#General setup 
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+#Layout 
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+#header and footer 
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+*/
+
+/* WRITE YOUR CODE BELOW HERE */
+
+/* ######################## */
+/* Charles Caleb CSS */
+/* ######################## */
+
+/* General setup */
+html {
+  font-size: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.4;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Layout sections */
+
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* Wrapper and main layout */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 5fr 3fr 2fr;
+}
+
+header {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 25px;
+}
+
+h1,
+h2 {
+  letter-spacing: 5px;
+  font-family: "Roboto Slab";
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-size: 2rem;
+  padding: 10px 0 10px 0;
+}
+
+section p {
+  text-indent: 2rem;
+}
+section p:last-of-type {
+  text-indent: 0;
+}
+
+section p,
+aside a,
+li {
+  font-size: 1.4rem;
+}
+
+section li {
+  margin-left: 40px;
+}
+
+.section-link {
+  margin-left: -25px;
+}
+
+section svg {
+  margin-left: -5px;
+  margin-right: 4px;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside li {
+  margin-bottom: 5px;
+  position: relative;
+}
+
+aside li::before {
+  content: "•";
+  position: absolute;
+  left: -18px;
+  top: -6px;
+  font-size: 2rem;
+}
+
+/* Navigation styles */
+.nav-list,
+.nav-list li,
+.mainNav-list {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+
+.nav-list {
+  gap: 10px;
+}
+
+.nav-list > li {
+  min-width: 300px;
+  list-style: none;
+  font-size: 2rem;
+  border: 1px solid #a66;
+  text-align: center;
+  padding: 20px 10px 20px 10px;
+}
+
+.mainNav-list li {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.mainNav-list li:last-of-type {
+  margin-bottom: 0;
+}
+
+.nav-list > li:hover {
+  transform: translateX(-10px);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Link styles */
+
+a:link,
+a:visited {
+  display: inline-block;
+  color: #a66;
+  text-decoration: underline;
+}
+
+a:hover,
+a:active {
+  color: #a66;
+  text-decoration: none;
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+a:focus {
+  color: #a66;
+
+  outline: none;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+}
+
+.mainNav-link:link,
+.mainNav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  background: #dc3340;
+  color: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.mainNav-link:hover,
+.mainNav-link:active {
+  background: #fff;
+  color: #dc3340;
+  border: 1px solid #dc3340;
+}

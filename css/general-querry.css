@@ -16,24 +16,19 @@
     font-size: 2rem;
   }
 
-  /* form query */
-
-  .form-input {
-    height: 3.375rem;
+  .nav-list {
+    gap: 10px;
   }
 
-  label,
-  ::placeholder,
-  textarea::placeholder,
-  select,
-  .hint,
-  form p {
-    font-size: 1.5rem;
+  .nav-list a:link,
+  .nav-list a:visited {
+    font-size: 0.8rem;
   }
+}
 
-  /* table query */
-
-  .main {
-    overflow: scroll;
+@media (max-width: 800px) {
+  .nav-list a:link,
+  .nav-list a:visited {
+    font-size: 1rem;
   }
 }

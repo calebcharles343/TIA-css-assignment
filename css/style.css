@@ -54,7 +54,7 @@ img {
 .nav-list {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 20px;
 }
 
 .nav-list a:link,
@@ -68,6 +68,11 @@ img {
   border: 2px solid #fff;
   padding: 10px;
   border-radius: 10px;
+}
+
+.nav-list a:hover,
+.nav-list a:active {
+  transform: scale(1.2);
 }
 
 .nav-link.active {
@@ -95,7 +100,7 @@ img {
   flex: 1;
 }
 
-.index-main P {
+.index-main > P {
   font-weight: 600;
   font-size: 1.2rem;
   height: 722px;
@@ -114,12 +119,12 @@ img {
   margin-bottom: 20px;
 }
 
-.container h2,
-.container img {
+.container > h2,
+.container > img {
   margin-bottom: 10px;
 }
 
-footer {
+.wrapper > footer {
   background-color: #dc3340;
   color: #fff;
   padding: 10px;

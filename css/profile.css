@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: red;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+}
+
+.card header,
+.card footer {
+  display: flex;
+  align-items: center;
+  height: 4.875em;
+  padding: 0.625em;
+}
+
+article {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+}
+
+article p {
+  padding: 0.625em;
+}
+
+.card footer p {
+  font-weight: 700;
+}
+
+article img {
+  width: 33.33%;
+}
